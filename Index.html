@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Camiones</title>
+</head>
+
+<body>
+    <h1>Camiones</h1>
+    <!--Agregar bases-->
+    <form action="">
+        <h3>Agregar bases</h3>
+        <label for="localizacion">Localización: </label>
+        <input type="text" id="localizacion" placeholder="Av San Fernando">
+        <br>
+
+        <label for="tiempoE">Tiempo de entrada: </label>
+        <input type="number" id="tiempoE" placeholder="40 minutos">
+        <br>
+
+        <label for="tiempoS">Tiempo de salida: </label>
+        <input type="number" id="tiempoS" placeholder="80 minutos">
+
+        <button id="btnAñadir" type="button">Añadir base</button>
+    </form>
+
+    <!--Eliminar bases-->
+    <form action="">
+        <h3>Eliminar bases</h3>
+        <label for="eliminarU">Eliminar: </label>
+        <input type="text" id="eliminarU" placeholder="Av San Fernando">
+
+        <br>
+        <button type="button" id="btnEliminar">Eliminar</button>
+        <button type="button" id="reporte">Reporte</button>
+    </form>
+
+    <!--Buscar bases-->
+    <form action="">
+        <h3>Buscar bases</h3>
+
+        <label for="buscarU">Buscar: </label>
+        <input type="text" id="buscarU" placeholder="Av San Fernando">
+
+        <button type="button" id="buscarU">Buscar</button>
+    </form>
+
+    <script src="Main.js" type="module"></script>
+</body>
+
+</html>
